@@ -1,0 +1,126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65AED6F575A69939B6B22D7C /* BenjiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC503FC46F22FC8B3933737D /* BenjiApp.swift */; };
+		D140C8502EE3C3A1C3392E85 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8309FC21D1FE79C00CC7E /* AppState.swift */; };
+		C09080E99A709EB552A07CB7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77025967FE2464BDA5B9D67B /* RootView.swift */; };
+		3EDDF8FADCF5B1388ADD1C59 /* TabShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532963F7A14311F1FEA8717 /* TabShellView.swift */; };
+		EFB6B3FEDDB31F0544CB835D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6306626C9380BF2639C179 /* Components.swift */; };
+		BAACF18FE432F8B7E4AAB87A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF354096FF847C2A3609A33 /* AuthView.swift */; };
+		FDB31B141DD12143D51A4C1B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740A061D5638ED33059B7649 /* OnboardingView.swift */; };
+		C2FDC3377CD6792D05708E3F /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D5392382C3B8D1122946F /* CalculatorView.swift */; };
+		8BAE72F1DA0BCEE1E1F75559 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872300F8C13251790DE2510 /* HistoryView.swift */; };
+		439889754A3ED7D77701825C /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0846240B2EEF37792C298 /* WatchlistView.swift */; };
+		56046C902AE002C244DA2627 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D2973685B27581C402BC81 /* SettingsView.swift */; };
+		45EAF64CB61FFA8F4F16936A /* IncomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F70A5C9177457CFD096B0 /* IncomeType.swift */; };
+		CFE331659FABB72FCFC69845 /* DecisionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AFA8143F4A17F22D7CB879 /* DecisionStatus.swift */; };
+		6EAAF29081E9FA74030607F7 /* HistoryPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1F841ABE248A72D2759C2 /* HistoryPeriod.swift */; };
+		B27EC40BA81D3D728F0F0D59 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18799E3F172263B31BC7633B /* UserAccount.swift */; };
+		6B65D791539D6BE444536921 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662221B30012B2846560C10A /* AppSettings.swift */; };
+		F598A40BBC5CC8E9DE12A950 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106B918BAD965322643603C5 /* Category.swift */; };
+		530083EB2238BD56ABA00458 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF94469DA77A6B692B124A0 /* Entry.swift */; };
+		7F53001C0CF1ADE800DF2D39 /* BenjiModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E238FCAA4A66EF572E431 /* BenjiModelContainer.swift */; };
+		CA4A24EC548C18512DC22FA8 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17495A3AF558FAB0E3E102E8 /* KeychainStore.swift */; };
+		89AD6E8AF1ADDB82428F1758 /* EarningsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDBB89244ECE3F61440EDC /* EarningsCalculator.swift */; };
+		83A7E90BDD3C91A725C2D156 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9A4BB3D32887BB2A75F9D /* AuthService.swift */; };
+		98FF6BCB7807B3393D133F41 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64744B06ABC7185AE1FED7A /* SessionService.swift */; };
+		7620E9D9C6F40605794667CE /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCD715F80D50A0CFF243AF /* ExportService.swift */; };
+		63DC56F285A17D871200220B /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B0641AF4706E68A77629A /* HistoryService.swift */; };
+		856E3438F9979E6D336A41E9 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8C9FB715C3DC8C422A98C /* Formatters.swift */; };
+		A06F5886D269AD6801252D54 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8268196C9788D14288B9D1E /* Haptics.swift */; };
+		BF3D6ECDF63BD0CB7E137F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E2B1F4DAD947D1AC056952 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC503FC46F22FC8B3933737D /* BenjiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenjiApp.swift; sourceTree = "<group>"; };
+		E6C8309FC21D1FE79C00CC7E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		77025967FE2464BDA5B9D67B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0532963F7A14311F1FEA8717 /* TabShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShellView.swift; sourceTree = "<group>"; };
+		9B6306626C9380BF2639C179 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		7EF354096FF847C2A3609A33 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		740A061D5638ED33059B7649 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CF7D5392382C3B8D1122946F /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		4872300F8C13251790DE2510 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		9FD0846240B2EEF37792C298 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		91D2973685B27581C402BC81 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5A1F70A5C9177457CFD096B0 /* IncomeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeType.swift; sourceTree = "<group>"; };
+		10AFA8143F4A17F22D7CB879 /* DecisionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionStatus.swift; sourceTree = "<group>"; };
+		B2C1F841ABE248A72D2759C2 /* HistoryPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPeriod.swift; sourceTree = "<group>"; };
+		18799E3F172263B31BC7633B /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		662221B30012B2846560C10A /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		106B918BAD965322643603C5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2AF94469DA77A6B692B124A0 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		6D7E238FCAA4A66EF572E431 /* BenjiModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenjiModelContainer.swift; sourceTree = "<group>"; };
+		17495A3AF558FAB0E3E102E8 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		02CDBB89244ECE3F61440EDC /* EarningsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsCalculator.swift; sourceTree = "<group>"; };
+		24F9A4BB3D32887BB2A75F9D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C64744B06ABC7185AE1FED7A /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		3ECCD715F80D50A0CFF243AF /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		955B0641AF4706E68A77629A /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+		40A8C9FB715C3DC8C422A98C /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		F8268196C9788D14288B9D1E /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		06E2B1F4DAD947D1AC056952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3EF23D4CBD740AD66C079AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9730C12B890D116AC692E1F /* Benji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Benji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC981767C62EA833B107403F = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9D7F1ECE6B1C2C05B9A223 = {isa = PBXGroup; children = (93A572943F79C78C06652AA8 /* Benji */, 5ADE8A4128725EB9150C196B /* Products */); sourceTree = "<group>"; };
+		5ADE8A4128725EB9150C196B = {isa = PBXGroup; children = (D9730C12B890D116AC692E1F /* Benji.app */); name = Products; sourceTree = "<group>"; };
+		93A572943F79C78C06652AA8 = {isa = PBXGroup; path = Benji; sourceTree = "<group>"; children = (8475FC51AB7BFD64C80513C9, FE350B7F37C495D0D0FA8D23, 65CC459E0EBB23A02978B285, 1D7A7E8EE78A7EE008555E35, 8CF00566FF40BE0C5213331E, E12A1075D9A039C130803AB7, 46B6DCF7EF6087CC56F8083E, 64DFDB80C56C79594CB6E87C, BC503FC46F22FC8B3933737D /* BenjiApp.swift */); };
+		8475FC51AB7BFD64C80513C9 = {isa = PBXGroup; path = App; sourceTree = "<group>"; children = (E6C8309FC21D1FE79C00CC7E, 77025967FE2464BDA5B9D67B, 0532963F7A14311F1FEA8717); };
+		FE350B7F37C495D0D0FA8D23 = {isa = PBXGroup; path = DesignSystem; sourceTree = "<group>"; children = (9B6306626C9380BF2639C179); };
+		65CC459E0EBB23A02978B285 = {isa = PBXGroup; path = Features; sourceTree = "<group>"; children = (E6791F47E4C071E1982EF07A, 53BD32DE4BF0B023A89F7DCA, C63DA8B99FF4728FF6077858, 984D69C8F47C3E1CF0FC52FE, 21E04AC1F5B7C208FB6F5980, 7868EDCE22B5DD460AB0DAFC); };
+		E6791F47E4C071E1982EF07A = {isa = PBXGroup; path = Auth; sourceTree = "<group>"; children = (7EF354096FF847C2A3609A33); };
+		53BD32DE4BF0B023A89F7DCA = {isa = PBXGroup; path = Onboarding; sourceTree = "<group>"; children = (740A061D5638ED33059B7649); };
+		C63DA8B99FF4728FF6077858 = {isa = PBXGroup; path = Calculator; sourceTree = "<group>"; children = (CF7D5392382C3B8D1122946F); };
+		984D69C8F47C3E1CF0FC52FE = {isa = PBXGroup; path = History; sourceTree = "<group>"; children = (4872300F8C13251790DE2510); };
+		21E04AC1F5B7C208FB6F5980 = {isa = PBXGroup; path = Watchlist; sourceTree = "<group>"; children = (9FD0846240B2EEF37792C298); };
+		7868EDCE22B5DD460AB0DAFC = {isa = PBXGroup; path = Settings; sourceTree = "<group>"; children = (91D2973685B27581C402BC81); };
+		1D7A7E8EE78A7EE008555E35 = {isa = PBXGroup; path = Models; sourceTree = "<group>"; children = (5A1F70A5C9177457CFD096B0, 10AFA8143F4A17F22D7CB879, B2C1F841ABE248A72D2759C2, 18799E3F172263B31BC7633B, 662221B30012B2846560C10A, 106B918BAD965322643603C5, 2AF94469DA77A6B692B124A0); };
+		8CF00566FF40BE0C5213331E = {isa = PBXGroup; path = Persistence; sourceTree = "<group>"; children = (6D7E238FCAA4A66EF572E431, 17495A3AF558FAB0E3E102E8); };
+		E12A1075D9A039C130803AB7 = {isa = PBXGroup; path = Services; sourceTree = "<group>"; children = (02CDBB89244ECE3F61440EDC, 24F9A4BB3D32887BB2A75F9D, C64744B06ABC7185AE1FED7A, 3ECCD715F80D50A0CFF243AF, 955B0641AF4706E68A77629A); };
+		46B6DCF7EF6087CC56F8083E = {isa = PBXGroup; path = Utilities; sourceTree = "<group>"; children = (40A8C9FB715C3DC8C422A98C, F8268196C9788D14288B9D1E); };
+		64DFDB80C56C79594CB6E87C = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (06E2B1F4DAD947D1AC056952, D3EF23D4CBD740AD66C079AB); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F45524962D088FBA96DA08 = {isa = PBXNativeTarget; buildConfigurationList = FA3E3883E4B4A66E86595080; buildPhases = (CD691BBBE993DA89463DFB43, EC981767C62EA833B107403F, 984AA73C6A3518E356174B49); buildRules = (); dependencies = (); name = Benji; productName = Benji; productReference = D9730C12B890D116AC692E1F; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EEAF57BAFC2A41CAB7C99A = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600; TargetAttributes = {C9F45524962D088FBA96DA08 = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = 4B2380CA9135CE36448D46F6; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 3C9D7F1ECE6B1C2C05B9A223; productRefGroup = 5ADE8A4128725EB9150C196B; projectDirPath = ""; projectRoot = ""; targets = (C9F45524962D088FBA96DA08); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984AA73C6A3518E356174B49 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (BF3D6ECDF63BD0CB7E137F9A); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD691BBBE993DA89463DFB43 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (65AED6F575A69939B6B22D7C, D140C8502EE3C3A1C3392E85, C09080E99A709EB552A07CB7, 3EDDF8FADCF5B1388ADD1C59, EFB6B3FEDDB31F0544CB835D, BAACF18FE432F8B7E4AAB87A, FDB31B141DD12143D51A4C1B, C2FDC3377CD6792D05708E3F, 8BAE72F1DA0BCEE1E1F75559, 439889754A3ED7D77701825C, 56046C902AE002C244DA2627, 45EAF64CB61FFA8F4F16936A, CFE331659FABB72FCFC69845, 6EAAF29081E9FA74030607F7, B27EC40BA81D3D728F0F0D59, 6B65D791539D6BE444536921, F598A40BBC5CC8E9DE12A950, 530083EB2238BD56ABA00458, 7F53001C0CF1ADE800DF2D39, CA4A24EC548C18512DC22FA8, 89AD6E8AF1ADDB82428F1758, 83A7E90BDD3C91A725C2D156, 98FF6BCB7807B3393D133F41, 7620E9D9C6F40605794667CE, 63DC56F285A17D871200220B, 856E3438F9979E6D336A41E9, A06F5886D269AD6801252D54); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCCE4A231C99A0E520C8452C = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Benji/Resources/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.oji5566.benji; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		EE527D2E612892D63600114F = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Benji/Resources/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.oji5566.benji; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		6DDD0CBDC86BD473FD5164AA = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug; };
+		3E910978C974D8B7CF49E0BF = {isa = XCBuildConfiguration; buildSettings = {}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2380CA9135CE36448D46F6 = {isa = XCConfigurationList; buildConfigurations = (6DDD0CBDC86BD473FD5164AA, 3E910978C974D8B7CF49E0BF); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		FA3E3883E4B4A66E86595080 = {isa = XCConfigurationList; buildConfigurations = (DCCE4A231C99A0E520C8452C, EE527D2E612892D63600114F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 16EEAF57BAFC2A41CAB7C99A;
+}
