@@ -1,5 +1,7 @@
 # Benji (Native SwiftUI iOS)
 
+![Benji native iOS app](https://github.com/user-attachments/assets/1b616fa4-d0fa-4d80-b719-59e4d7be7e57)
+
 This repository has been rewritten from the original web PWA into a native iOS app.
 
 ## What is now in this repo
